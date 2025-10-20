@@ -28,3 +28,7 @@ theme = 'hugo-theme-stack'
     name = "标签"
     url = "/tags/"
     weight = 30
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
