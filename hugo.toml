@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'zh-cn'  # 设置语言为中文
-title = '我的超赞博客'
+title = 'fusang blog '
 theme = 'hugo-theme-stack'
       # 告诉 Hugo 使用 PaperMod 主题
 
