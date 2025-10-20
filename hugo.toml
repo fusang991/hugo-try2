@@ -1,0 +1,30 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'  # 设置语言为中文
+title = '我的超赞博客'
+theme = 'hugo-theme-stack'
+      # 告诉 Hugo 使用 PaperMod 主题
+
+[params]
+    # 这是 PaperMod 主题的一些配置，可以先照着写
+    defaultTheme = "auto" # auto, light, dark
+    ShowShareButtons = true
+    ShowReadingTime = true
+    ShowPostNavLinks = true
+
+[menu]
+  # 配置网站顶部的导航菜单
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 30
